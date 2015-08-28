@@ -14,8 +14,12 @@ a:hover {text-decoration:none; color:#55acee; opacity: 0.7;}
 a:focus {text-decoration:none; color:#55acee;}
 a:hover, a:active {text-decoration:none; color:#55acee; opacity: 0.7;}
 
+body {
+  height: 100%;
+}
+
 .firstDiv {
-  background: url('bg4.jpg');
+  background: url('bg5.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   overflow: none;
@@ -38,13 +42,13 @@ a:hover, a:active {text-decoration:none; color:#55acee; opacity: 0.7;}
   margin-top: -12.5px;
   margin-left: 10px;
   height: 45px;
-  content: url('logo3.png');
+  content: url('LOGO.png');
 }
 
 #appStore {
   margin-top: -15px;
   height: 50px;
-  content: url('appStore.png');
+  /*content: url('appStore.png');*/
 }
 
 .rightAlignLogo {
@@ -84,10 +88,9 @@ a:hover, a:active {text-decoration:none; color:#55acee; opacity: 0.7;}
 
 .mainLogo {
   margin: auto;
-  margin-top: 40px;
   margin-top: 80px;
   display: block;
-  height: 115px;
+  height: 135px;
 }
 
 #title {
@@ -108,13 +111,13 @@ a:hover, a:active {text-decoration:none; color:#55acee; opacity: 0.7;}
   margin-bottom: -20px;
   font-weight: lighter;
   font-family: dense;
-  text-shadow: 2px 2px black;
+  /*text-shadow: 2px 2px black;*/
 }
 
 #underslogan {
   margin-top: 35px;
-  color: orange;
-  text-shadow: 2px 2px black;
+  color: white;
+  /*text-shadow: 2px 2px black;*/
   text-align: center;
   font-size: 35px;
   font-weight: lighter;
